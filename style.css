@@ -1,0 +1,181 @@
+body {
+  margin: 0px;
+}
+
+.main {
+  margin: 0px;
+  padding: 0px;
+}
+.offering {
+  text-transform: uppercase;
+  text-align: center;
+  text-decoration: underline;
+  background: linear-gradient(
+    to right,
+    red 10%,
+    green 20%,
+    rgb(232, 248, 11) 70%
+  );
+  color: blue;
+  margin-bottom: 10px;
+}
+
+.nav-bar {
+  width: 600px;
+  height: 50px;
+  border: red 2px solid;
+  margin: auto;
+  border-radius: 7px;
+  background: rgb(185, 212, 223);
+}
+
+.nav-bar ul {
+  text-align: center;
+  font-size: 0.9em;
+  margin: 0px;
+  text-decoration: none;
+}
+.container {
+  display: flex;
+  border: rgb(119, 10, 10) solid 1px;
+  background: rgb(98, 238, 168);
+  flex-wrap: wrap;
+  margin-top: 10px;
+  border-radius: 8px;
+  justify-content: space-evenly;
+}
+.box {
+  background: turquoise;
+  border: rgb(34, 168, 34) solid 2px;
+  margin-left: 20px;
+  margin-bottom: 5px;
+  width: 300px;
+  height: 50px;
+  border-radius: 5px;
+  overflow: hidden;
+  padding-left: 5px;
+}
+.top-perfomer {
+  margin-top: 10px;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: underline;
+  background: linear-gradient(to right, red 5%, yellow 60%, red 90%);
+  padding-bottom: 15px;
+  padding-top: 0px;
+}
+
+.perfomer-container {
+  display: flex;
+  /* width: 100%; */
+  height: 200px;
+  border: green 2px solid;
+  background: linear-gradient(
+    135deg,
+    green,
+    rgb(145, 145, 199),
+    rgb(56, 56, 95)
+  );
+  border-radius: 5px;
+  margin-top: 10px;
+  justify-content: space-evenly;
+}
+.perfomer-box {
+  margin: 30px 30px;
+  height: 120px;
+  width: 170px;
+  background: yellow;
+  color: red;
+  border: red solid 1px;
+  border-radius: 5px;
+  align-content: center;
+}
+.perfomer-box p {
+  padding: 0px;
+  text-align: center;
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+}
+
+.best-place {
+  margin-top: 10px;
+  background: rgb(250, 72, 72);
+  text-transform: uppercase;
+  color: white;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.detail-parent-container {
+  display: flex;
+  /* flex-direction: column; */
+}
+
+.details-container {
+  display: flex;
+  margin-top: 5px;
+  /* width: 73%; */
+}
+.doubt {
+  width: 380px;
+  background: greenyellow;
+  color: white;
+  text-transform: capitalize;
+  font-size: 1rem;
+  text-align: center;
+  margin-right: 5px;
+}
+.discount {
+  width: 380px;
+  background: rgb(53, 171, 240);
+  color: white;
+  text-transform: capitalize;
+  font-size: 1rem;
+  margin-right: 5px;
+}
+.hard-work {
+  width: 380px;
+  background: rgb(89, 101, 204);
+  color: white;
+  text-transform: capitalize;
+  font-size: 1rem;
+  margin-right: 5px;
+}
+
+.lorem-bottom {
+  background: orange;
+  color: white;
+  width: 97.5%;
+  height: 120px;
+}
+
+.side-bar {
+  width: 120px;
+  border: black solid 2px;
+  margin-top: 5px;
+  background: black;
+  /* position: absolute; */
+  /* right: 2%; */
+  /* top: 90%; */
+  /* float: right; */
+}
+
+.side-bar ol {
+  margin: 0px;
+  padding-left: 15px;
+  padding-top: 0px;
+}
+
+.side-bar ol li {
+  /* text-decoration: underline; */
+  text-transform: capitalize;
+  color: white;
+}
+
+.all-the-best {
+  text-transform: uppercase;
+  text-align: center;
+  background: cyan;
+  font-weight: bold;
+}
