@@ -79,6 +79,7 @@ body {
   border-radius: 5px;
   margin-top: 10px;
   justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 .perfomer-box {
   margin: 30px 30px;
@@ -109,16 +110,18 @@ body {
 
 .detail-parent-container {
   display: flex;
+  /* flex-wrap: wrap; */
   /* flex-direction: column; */
 }
 
 .details-container {
   display: flex;
   margin-top: 5px;
+  flex-wrap: wrap;
   /* width: 73%; */
 }
 .doubt {
-  width: 380px;
+  width: 28%;
   background: greenyellow;
   color: white;
   text-transform: capitalize;
@@ -127,7 +130,7 @@ body {
   margin-right: 5px;
 }
 .discount {
-  width: 380px;
+  width: 28%;
   background: rgb(53, 171, 240);
   color: white;
   text-transform: capitalize;
@@ -135,7 +138,7 @@ body {
   margin-right: 5px;
 }
 .hard-work {
-  width: 380px;
+  width: 28%;
   background: rgb(89, 101, 204);
   color: white;
   text-transform: capitalize;
@@ -146,12 +149,12 @@ body {
 .lorem-bottom {
   background: orange;
   color: white;
-  width: 97.5%;
+  width: 85%;
   height: 120px;
 }
 
 .side-bar {
-  width: 120px;
+  width: 12%;
   border: black solid 2px;
   margin-top: 5px;
   background: black;
