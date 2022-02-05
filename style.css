@@ -165,6 +165,7 @@ body {
 
   /* grid-row: 200px; */
   grid-column: 1/4;
+  overflow: hidden;
 
   /* width: 88%;
   height: 120px; */
