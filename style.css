@@ -81,7 +81,7 @@ body {
   border-radius: 5px;
   margin-top: 10px;
   justify-content: space-evenly;
-  flex-wrap: nowrap;
+  flex-wrap: row nowrap;
 }
 .perfomer-box {
   margin: 30px 30px;
@@ -110,66 +110,84 @@ body {
   text-align: center;
 }
 
-.detail-parent-container {
+.details-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: auto 120px auto;
+  border: 1px solid green;
+  gap: 5px;
+  margin-top: 10px;
+}
+
+/* .detail-parent-container {
   display: flex;
   /* flex-wrap: wrap; */
-  /* flex-direction: column; */
-}
+/* flex-direction: column; */
+/* } */
+
+/* 
+
 
 .details-container {
   display: flex;
   margin-top: 5px;
   flex-wrap: wrap;
-  /* width: 73%; */
-}
+ width: 73%;
+} */
 .doubt {
-  width: 29%;
+  /* width: 29%; */
   background: greenyellow;
   color: white;
   text-transform: capitalize;
   font-size: 1rem;
   text-align: center;
-  margin-right: 5px;
+  /* margin-right: 5px; */
 }
 .discount {
-  width: 29%;
+  /* width: 29%; */
   background: rgb(53, 171, 240);
   color: white;
   text-transform: capitalize;
   font-size: 1rem;
-  margin-right: 5px;
+  /* margin-right: 5px; */
 }
 .hard-work {
-  width: 29%;
+  /* width: 29%; */
   background: rgb(89, 101, 204);
   color: white;
   text-transform: capitalize;
   font-size: 1rem;
-  margin-right: 5px;
+  /* margin-right: 5px; */
 }
-
 .lorem-bottom {
   background: orange;
   color: white;
-  width: 88%;
-  height: 120px;
+
+  /* grid-row: 200px; */
+  grid-column: 1/4;
+
+  /* width: 88%;
+  height: 120px; */
 }
 
 .side-bar {
-  width: 12%;
+  /* width: 12%; */
   border: black solid 2px;
-  margin-top: 5px;
+  grid-column-start: 4;
+  grid-row: 1/3;
   background: black;
-  /* position: absolute; */
-  right: 2%;
-  /* top: 90%; */
-  /* float: right; */
+  /* margin-top: 5px;
+  position: absolute;
+right: 2%;
+top: 90%;
+float: right; */
 }
 
 .side-bar ol {
   margin: 0px;
   padding-left: 15px;
-  padding-top: 0px;
+  /* padding: 0px; */
+  /* padding-top: 0px; */
 }
 
 .side-bar ol li {
